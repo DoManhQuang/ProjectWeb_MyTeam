@@ -1,0 +1,537 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 960px;
+	margin:0 auto;
+}
+/*.header_menu{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background: white;
+}*/
+.header{
+	width: 1170px;
+	margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+.logo img{
+
+max-width: 100%;
+
+height: 32px;
+
+padding: 10;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.theme{
+
+background: #009FE3;
+
+padding: 10;
+
+margin-top: -12px;
+}
+.menu_list{
+
+left: 819px;
+
+top: 16px;
+
+position: absolute;
+}
+.menu_list a{
+
+text-decoration: none;
+
+margin-right: 30px;
+
+display: block;
+}
+
+.menu_list i{
+
+font-size: 16px;
+
+padding-right: 10;
+}
+.banner{
+	padding-bottom: 100px;
+	background-attachment: fixed;
+	background-image: url('https://static.ladipage.net/s1440x900/57b167c9ca57d39c18a1c57c/bbb7771a-masthead.jpg');
+
+}
+.logo_banner img{
+
+height: 32px;
+
+padding-top: 53px;
+}
+.text{color: rgba(255,255,255,1);font-weight: 40;}
+.form input{
+
+padding: 16px;
+
+padding-right: 228px;
+
+background: no-repeat;
+
+border: 1px solid rgba(255,202,40,1);
+outline: none;
+}
+.form a{
+	
+text-decoration: none;
+	
+color: black;
+	
+background: rgba(255,202,40,1);
+	
+padding: 15px;
+	
+padding-bottom: 17px;
+	
+margin-left: -4px;
+}
+.text h1{padding-top: 130px;font-size: 35px;}
+.text p{
+	
+margin-top: -20;
+	
+padding-left: 36px;
+	
+font-size: 19px;
+}
+.opacity{
+	z-index: -1;
+	width: 1349px;
+	height: 692px;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+}
+.banner{
+	position: relative;
+	z-index: 5;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.row{
+	padding: 0 15px;
+}
+.inner{
+	margin: 0 -15px;
+}
+.clear-fix{
+	clear: both;
+}
+.big{
+	font-size: 66px;
+	color: #d4b068;
+	margin-left: -114px;
+}
+.photo{
+	margin-left: 35px;
+	margin-top: -35px;
+	font-size: 19px;
+	letter-spacing: 2px;
+	color: #000000ad;
+}
+.content{
+	text-align: center;
+	padding-top: 115px;
+	padding-bottom: 55px;
+}
+.biga{
+	font-size: 66px;
+	color: #d4b068;
+	margin-left: -175px;
+
+}
+.content_photo i{
+	font-size: 40px;
+	margin-left: -333px;
+	color: #d4b068;
+}
+.content_photo{
+	position: relative;
+	margin-bottom: 65px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.border_photo{
+	border-bottom: 1px solid rgba(161,161,161,1);
+	border-left: 0;
+	width: 103px;
+	border-top: 0;
+	border-right: 0;
+	border-style: dashed;
+	position: absolute;
+	left: 179px;
+	margin-top: -10px;
+}
+.text_content{/* margin-bottom: 42px; */}
+.paragraph{
+	
+margin-left: 50;
+	
+margin-top: 14px;
+}
+.few_word{
+	background: rgba(20,20,20,1);
+}
+.content_few{
+
+color: white;
+
+padding: 110 0;
+
+text-align: center;
+}
+.lorem_ip{
+	
+font-size: 16px;
+	
+margin-right: 37px;
+	
+color: rgba(255,255,255,0.83);
+}
+.text_content{
+	margin-left: 80px;
+	position: relative;
+	/* padding: 4px; */
+	padding-bottom: 20px;
+}
+.content_creative img{
+	height: 567px;
+	width: 679px;
+	position: absolute;
+	top: 1px;
+}
+.text_content p{
+	    color: #00000091;
+}
+.italic{
+	
+color: #8e4242;
+	
+left: -70px;
+	
+position: absolute;
+	
+font-size: 50;
+}
+.content_creative{
+	
+padding-top: 77px;
+	
+position: relative;
+}
+.content_choose{
+
+color: white;
+
+text-align: center;
+}
+.choose{
+	
+background: rgba(20,20,20,1);
+	
+padding: 100;
+}
+.content_choose a{
+
+text-decoration: none;
+
+color: rgba(255,255,255,0.83);
+
+display: block;
+
+border: 1px solid;
+
+border-width: 1px;
+
+margin-top: 20px;
+
+padding: 15;
+
+border-radius: 11px;
+
+font-weight: bold;
+}
+.p_lorem{
+
+font-size: 15;
+
+line-height: 24px;
+
+color: rgba(255,255,255,0.83);
+
+margin-top: 2;
+}
+.reason{
+	
+font-style: italic;
+	
+color: #d4b068;
+	
+margin-left: 90px;
+	
+margin-top: 0;
+	
+font-weight: bold;
+}
+.create_text{
+
+text-align: center;
+
+padding-top: 86px;
+
+padding-bottom: 30px;
+}
+.text_lorem{
+	
+color: #000000a1;
+}
+.create_text h1{
+
+font-size: 37px;
+
+letter-spacing: 2;
+}
+.text_reason{
+	
+margin-top: 0;
+	
+font-style: italic;
+	
+color: #d4b068;
+	
+font-weight: bold;
+}
+.image{
+	padding-top: 10;
+	padding-bottom: 70px;
+}
+.reason_why{
+	background: rgba(31,31,31,1);
+	padding-bottom: 70px;
+}
+.agency h1{
+
+font-size: 40px;
+
+}
+.p_ag{
+	
+color: rgba(255,255,255,1);
+	
+letter-spacing: 1;
+	
+}
+.rea_us{
+
+margin-top: 0;
+
+font-style: italic;
+
+color: #d4b068;
+}
+.content_reason img{
+	width: 80%;
+	height: 80%;
+}
+.content_reason p{
+	
+color: #d4b068;
+	
+font-weight: bold;
+	
+font-style: italic;
+	
+margin-left: 75px;
+}
+.agency{
+
+text-align: center;
+
+color: rgba(255,255,255,1);
+
+padding: 65px;
+}
+.content_easy h1{
+
+color: rgba(186,186,186,1);
+
+font-size: 60px;
+}
+.position{
+
+position: absolute;
+
+top: 64px;
+
+left: 35px;
+
+color: #d4b068;
+
+font-weight: bold;
+}
+.content_easy{
+	
+position: relative;
+}
+.content_easy p{
+	color: #0000007a;
+}
+.easy{
+	padding: 50px;
+}
+.report{
+	background-image: url('https://static.ladipage.net/s1440x600/57b167c9ca57d39c18a1c57c/6e6ec592-reviews.jpg');
+	background-attachment: fixed;
+	padding: 80;
+}
+.report_img img{
+
+height: 88px;
+
+width: 83px;
+
+border-radius: 50%;
+}
+.report_img{
+	float: left;
+}
+.p_toi{
+
+color: #0000008c;
+}
+.content_report h4{
+
+margin-top: 40px;
+
+color: #6f5252;
+}
+.bao_hiem{
+	
+color: #d4b068;
+	
+font-size: 15;
+}
+.footer{
+	background: #2e2e2e;
+	padding-bottom: 90px;
+}
+.logo_f img{
+
+height: 32;
+
+padding-top: 100px;
+
+/* float: left; */
+}
+.border_f{
+
+border-bottom: 1px solid #cccccc40;
+
+margin-top: 44px;
+}
+.address{
+	margin-left: 187px;
+    margin-top: -27px;
+    font-size: 20px;
+    color: white;
+}
+.add{
+	margin-left: 160px;
+    font-size: 14px;
+    color: rgba(145,145,145,1);
+}
+.message{
+
+margin-top: 35px;
+}
+.message p{
+	
+color: rgba(145,145,145,1);
+	
+font-size: 15px;
+}
+.message h4{
+	color: white;
+}
+.form_footer{
+
+}
+.form_footer input{
+	
+outline: none;
+	
+background: none;
+	
+border: 1px solid #cccccc94;
+	
+padding: 9px;
+	
+padding-right: 50px;
+	
+margin-top: 15px;
+}
+.form3{
+
+width: 464px;
+}
+.form_footer textarea{
+	
+background: none;
+	
+margin-top: 20;
+	
+padding-right: 232px;
+}
+.content_footer a{
+	
+text-decoration: none;
+	
+color: white;
+	
+background: #d4b068;
+	
+padding: 13px;
+	
+padding-top: 16px;
+	
+border-radius: 5px;
+	
+width: 130px;
+	
+display: block;
+	
+margin-top: 20;
+}

@@ -1,0 +1,346 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.container{
+	width: 960px;
+	margin:0 auto;
+}
+h1,h2,h3{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.clear-fix{
+	clear: both;
+}
+.menu_header a{
+
+padding-right: 25px;
+
+color: black;
+
+display: block;
+
+padding-top: 10px;
+
+padding-bottom: 10px;
+
+padding-left: 25;
+}
+.menu_header .fa{
+	margin:2px;
+}
+.header{
+	background: url('../image/para1.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 150px;
+	opacity: 0.7;
+	background-attachment: fixed;
+}
+.menu_header{
+	background-color:white;
+	/*position: fixed;
+	width: 100%;
+	z-index: 999;*/
+}
+.menu_header a:hover{
+	background-color:#ccc;
+}
+.banner_text p{
+	background-color: black;
+	display:inline;
+	color:white;
+	padding: 12px;
+	letter-spacing: 10px;
+	font-weight: 700;
+	font-size: 25;
+}
+a.right{
+	display:inline-block;
+	margin-left: 770px;
+	padding-right: 16px;
+}
+a.right:hover{
+	background-color:red;
+}
+.banner_text{
+	padding-top: 180px;
+	text-align:center;
+}
+.navi_text{
+	text-align:center;
+	padding-top: 75px;
+	color:#676161d6;
+}
+.navi_text h2{
+	font-weight:100;
+	font-size: 26px;
+}
+.left{
+	text-align: left;
+	font-size: 17px;
+	line-height: 1.5;
+}
+.col-2{
+	width: 50%;
+	float: left;
+}
+.row{
+	margin: 0 -15px;
+}
+.inner{
+	padding: 0 15px;
+}
+.content img{
+	max-width:100%;
+	opacity: 0.6;
+}
+.lorem{
+	
+font-size: 17px;
+	
+line-height: 1.5;
+	
+color: #756c6c;
+}
+.content_img{
+	
+text-align: center;
+	
+padding-top: 25px;
+	
+padding-bottom: 40px;
+}
+.content img:hover{
+	opacity:1;
+}
+.name{
+
+display: inline;
+
+margin-left: 20px;
+
+font-weight: 600;
+}
+.good{
+	text-align:center;
+	padding-top:30px;
+	font-size:20px;
+	padding-bottom:20px;
+	color:#504a4a;
+}
+.dis{
+	display:inline;
+	letter-spacing: 12px;
+	color: #777;
+}
+.color{
+	padding:10px;
+	background-color:#616161;
+	text-align:center;
+	color:white;
+}
+.bg_color{
+	background-color:#f1f1f1!important;
+}
+.cl{
+	width:90%;
+}
+.cl1{
+	width:85%;
+}
+.cl2{
+	width:75%;
+}
+.pt{
+	padding:20 0 20 0;
+}
+.really{
+	padding-bottom: 50px;
+}
+.image:hover{
+	opacity:0.6;
+}
+.partners{
+	background-color: #616161;
+	padding: 40 0 40 0;
+}
+.display{
+	width: 25%;
+	float:left;
+	text-align: center;
+	color: white;
+}
+.banner_footer{
+	background:url('../image/para2.jpg');
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+.banner_footer p{
+	color:white;
+	text-align: center;
+	padding: 190px;
+	font-size: 35px;
+	letter-spacing: 15px;
+	font-weight: 400;
+}
+.my_work{
+	text-align:center;
+	color: #777;
+	font-size:18px;
+	padding:40 0 40 0;
+}
+.my_work p{
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.content-img img{
+	max-width:100%;
+}
+.content-img{
+	padding:0 8 0 8;
+	padding-bottom: 15px;
+}
+.content-img a:hover{
+	opacity:0.6;
+}
+.load{
+	text-align:center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.load a{
+	background-color:#cccccc6e;
+	padding: 13px;
+	display:inline-block;
+	color:#000;
+}
+.load a:hover{
+	background-color:#ccc;
+}
+.banner2{
+	background: url('../image/para3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.6;
+}
+.col-6{
+	width: 66.66%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.content_add li{
+	clear:left;
+	padding:5px;
+	color:#0000009c;
+	font-size:20px;
+}
+.fa{
+	margin-right:20px;
+}
+.fa:hover{
+	color:black;
+}
+.input_text{
+
+padding: 10 0 15;
+
+padding-right: 139px;
+
+margin-top: 20px;
+
+outline: none;
+}
+.input-width{
+	
+margin-top: 12px;
+	
+width: 100%;
+}
+li.swing{
+
+}
+.fa-coffee, .fa-paper-plane{
+	margin:2;
+}
+.send_mess{
+	text-align:right;
+	margin-top: 20px;
+}
+.send_mess a{
+	display: inline-block;
+	background-color:black;
+	padding: 15px;
+	color: white;
+}
+.send_mess a:hover{
+	background-color:#7a7676;
+}
+.address{
+	padding-bottom:100px;
+}
+.footer{
+	background-color:#777;
+	text-align:center;
+	padding-bottom: 50px;
+}
+.icon .fa{margin: 2px;font-size: 26px;color: white;}
+.icon{
+	margin-left: 400px;
+	padding-top: 30;
+}
+.top{
+	
+color: #777;
+	
+background: white;
+	
+display: inline-block;
+	
+padding: 15;
+	
+margin-top: 80px;
+}
+.power{
+
+color: white;
+}
+.power a{
+	
+color: white;
+	
+text-decoration: underline;
+}
+.power a:hover{
+	color:#4CAF50;
+}
+.icon .fa:hover{
+	color:#0000008a;
+}
+.top:hover{
+	background-color:#f1f1f1;
+}
+.footer:hover{
+	background-color:black;
+}

@@ -1,0 +1,51 @@
+ul {
+  margin: 0;
+  padding: 0;
+  }
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear-fix{
+	clear: both;
+}
+.menu{
+		width: 30%;
+		float: left;
+		color: white;
+	}
+.menu li{
+		background: #ccc;
+		padding:20px;
+	}
+.menu li:hover{
+		background: green;
+	}
+@media screen and (max-width: 700px)
+{
+	.menu{
+		width: 100% !important;
+	}
+	.menu li{
+		float: left;
+		width: 18%;
+	}
+}
+@media screen and (max-width: 400px)
+{
+	.menu li{
+		width: 100%;
+		float: unset;
+	}
+
+}
+@media screen and(max-width: 1366px)
+{
+	.menu{
+		width: 30%;
+		float: left;
+	}
+}

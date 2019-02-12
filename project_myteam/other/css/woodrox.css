@@ -1,0 +1,254 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4{
+	margin: 0;
+	padding:0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.clear-fix{
+	clear: both;
+}
+.header{
+	z-index: 5;
+	background: url('http://marceladick.com/wp-content/uploads/2016/02/parker-furniture-best-with-photos-of-parker-furniture-interior-on-design.jpg');
+	position: relative;
+	background-attachment: fixed;
+}
+.menu_head a{
+	
+float: left;
+	
+display: inline-block;
+	
+text-decoration: none;
+	
+color: white;
+}
+.menu_head a:hover{
+	color: #faba00;
+}
+.visit a{
+
+margin-left: 35;
+}
+.icon{
+	float: right;
+}
+.icon a{
+
+float: right;
+
+margin-right: 25px;
+
+display: inline-block;
+}
+.menu_head{
+
+background: rgba(255, 255, 255, 0.15);
+
+padding-bottom: 27px;
+
+padding-left: 0;
+
+padding-top: 10px;
+
+padding-right: 0;
+}
+.menu_list{
+	
+float: right;
+	
+margin-top: -27px;
+}
+.menu_list a{
+	text-decoration:none;
+	color:white;
+	font-size: 13px;
+	margin-left: 40px;
+	padding: 5;
+	padding-left: 5;
+}
+.menu_lv1 ul li{
+	position:relative;
+}
+.menu_lv2{
+	position:absolute;
+	display:none;
+	left: 45px;
+	background: #fff;
+	/*transition: all 400ms ease;*/
+}
+.menu_list ul li:hover>.menu_lv2{
+	display:block;
+}
+.menu_lv2 li{
+	width: 180;
+}
+.menu_lv2 a{
+	text-decoration: none;
+	color: black;
+	margin-left: 0;
+	padding-top: 15;
+	padding-bottom: 15;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	 /*transition: all 300ms ease-in;*/
+}
+.menu_lv2 a:hover{
+	background-color: yellow;
+}
+.logo{
+	
+color: white;
+	
+font-size: 35px;
+	
+margin-top: 40px;
+}
+.link a{
+
+text-decoration: none;
+
+color: white;
+
+margin-left: 15px;
+
+display: block;
+}
+.link{
+	
+text-align: center;
+	
+margin-left: 500;
+	
+margin-top: 17px;
+	
+padding-bottom: 100px;
+}
+.text_banner h1{
+	color:white;
+	padding-top: 115px;
+	text-align:center;
+	font-size: 56px;
+}
+.border{
+	
+width: 1333;
+	
+height: 413;
+	
+background: black;
+	
+opacity: 0.6;
+	
+z-index: -1;
+	
+position: absolute;
+	
+top: 0;
+}
+.latest{
+	text-align:center;
+	padding-top:100px;
+}
+.latest p{
+	
+color: #0000008c;
+	
+padding-bottom: 50px;
+}
+.footer .row{
+	padding: 0 15px;
+}
+.col-2{
+	width: 20%;
+	float: left;
+}
+.col-8{
+	width: 40%;
+	float: left;
+}
+.clear-fix{
+	clear: both;
+}
+.content{
+
+position: relative;
+}
+.hover{
+	display: none;
+	position: absolute;
+	background: #faba00;
+	bottom: 0px;
+	padding: 36px;
+	font-size: 16px;
+	left: 0;
+	margin-bottom: 0;
+}
+.content:hover .hover{
+	display: block;
+}
+.content img{
+	width:100%;
+}
+.img{
+	height: 373px;
+}
+.footer .inner{
+	margin: 0 -15px;
+}
+.footer{
+	background-color: #222222;
+	padding-bottom:130px;
+}
+.footer h1{
+	color:white;
+	padding-top:120px;
+	font-size:20px;
+}
+.footer p{
+	color:#777777;
+	padding-top:20
+}
+.color{
+	color:#faba00;
+	text-decoration:none;
+}
+.new_letter{
+	padding-left:50px;
+}
+input{
+	padding:12px;
+	padding-right:200px;
+	border:none;
+}
+.new_letter i{
+	background:#faba00;
+	padding:10px;
+	padding-bottom:13px;
+}
+.icon_footer li{
+	margin-right:20px;
+}
+.icon_footer a{
+	color:white;
+}
+.icon_footer a:hover{
+	color:#faba00;
+}
+.follow_me{
+	padding-left:80px;
+}
